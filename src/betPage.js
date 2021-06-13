@@ -34,7 +34,7 @@ export default class betPage extends Component {
         const networkId =  await web3.eth.net.getId();
         console.log(networkId)
 
-        const bettingContract = new web3.eth.Contract(BettingContract, '0x29a53ce74EAf71fE432f7cafF1918f3520fA7991');
+        const bettingContract = new web3.eth.Contract(BettingContract, '0x835beeEa762Ad5bc30ab1dD038e58b192e31DfB5');
         this.setState({bettingContract});
 
     }
